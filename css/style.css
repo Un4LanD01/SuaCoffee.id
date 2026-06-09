@@ -333,7 +333,7 @@ footer .credit a {
 /* Laptop */
 @media (max-width: 1366px) {
   html {
-    font: 70%;
+    font: 75%;
   }
 }
 
@@ -378,7 +378,11 @@ footer .credit a {
   }
 
   .about .row {
-    flex: wrap;
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img {
+    flex: 1 1 100%;
   }
 
   .about .row .about-img img {
@@ -399,27 +403,36 @@ footer .credit a {
   .about .row .content p {
     font-size: 1.6rem;
   }
-}
 
-.menu p {
-  font-size: 1.2rem;
-}
+  .menu p {
+    font-size: 1.2rem;
+  }
 
-.contact .row {
-  flex-wrap: wrap;
-}
+  .menu .row .menu-card {
+    flex: 1 1 20rem;
+    padding-bottom: 3rem;
+  }
 
-.contact .row .map {
-  height: 30rem;
-}
+  .contact .row {
+    flex-wrap: wrap;
+  }
 
-.contact .row form {
-  padding-top: 0;
+  .contact .row .map {
+    height: 30rem;
+  }
+
+  .contact .row form {
+    padding: 2rem 0;
+  }
 }
 
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
     font: 55%;
+  }
+
+  .hero .content h1 {
+    font-size: 3.5rem;
   }
 }
