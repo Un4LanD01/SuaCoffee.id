@@ -333,14 +333,14 @@ footer .credit a {
 /* Laptop */
 @media (max-width: 1366px) {
   html {
-    font: 75%;
+    font-size: 75%;
   }
 }
 
 /* Tablet */
 @media (max-width: 450px) {
   html {
-    font: 62.5%;
+    font-size: 62.5%;
   }
 
   #hamburger-menu {
@@ -429,7 +429,7 @@ footer .credit a {
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font: 55%;
+    font-size: 55%;
   }
 
   .hero .content h1 {
